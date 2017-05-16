@@ -33,7 +33,9 @@ namespace Deberdt.Yarp.SimpleExpressionCalculator
                     Console.WriteLine(result);
                 }
                 catch (InvalidInputException e1)
-                {
+                {                    
+                    Console.WriteLine(expression);
+                    Console.WriteLine("^".PadLeft(e1.Position + 1));
                     Console.WriteLine($"Error: unrecognized character '{e1.Input}' at position {e1.Position + 1}");
                 }
                 catch (InvalidOperationException e2)
