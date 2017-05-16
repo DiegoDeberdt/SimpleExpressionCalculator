@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SimpleExpressionCalculator")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Yet Another Research Project: SimpleExpressionCalculator")]
+[assembly: AssemblyDescription("Scanner, parser and interpreter for simple arithmetic expressions")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("LU-SCCMP01")]
-[assembly: AssemblyProduct("SimpleExpressionCalculator")]
-[assembly: AssemblyCopyright("Copyright © LU-SCCMP01 2017")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
